@@ -4,6 +4,6 @@ int main(){
     scanf("%s %s", str,str2);
     printf("You entered: %s",str1);
     printf("%s",str2);
-    return0;
+    return 0;
     
 }
