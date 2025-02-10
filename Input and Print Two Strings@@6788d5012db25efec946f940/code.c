@@ -7,8 +7,8 @@ int main() {
     scanf("%s %s", str, str2);
 
     // Print the two strings correctly
-    printf("You entered: %s\n", str);  // Use the correct variable name str
-    printf("%s\n", str2);
+    printf("You entered: %s", str);  // Use the correct variable name str
+    printf(" and %s\", str2);
 
     return 0;
 }
