@@ -2,7 +2,9 @@
 int main(){
 int a= 5;
 int b= 3;
-printf("True ",a>b);
-printf("False", a<b);
+if(a>b){
+printf("True ");
+if(a<b){
+printf("False")}
 return 0;
 }
