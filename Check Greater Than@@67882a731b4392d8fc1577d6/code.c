@@ -3,5 +3,5 @@ int main(){
 int a= 10;
 int b= 20;
 printf("False %d",a>b);
-return 0:
+return 0;
 }
