@@ -2,6 +2,6 @@
 int main(){
 int a= 10;
 int b= 20;
-printf("False %d",a>b);
+printf("False ",a>b);
 return 0;
 }
