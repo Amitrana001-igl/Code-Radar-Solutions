@@ -2,10 +2,10 @@
 int main(){
     int num;
     if(num>0){
-        printf("Even")
+        printf("Even");
     }
     else{
-        printf("False")
+        printf("False");
     }
     return 0;
 }
