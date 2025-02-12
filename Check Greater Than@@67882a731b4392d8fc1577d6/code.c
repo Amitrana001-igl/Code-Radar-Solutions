@@ -2,7 +2,7 @@
 int main(){
 int a= 5;
 int b= 3;
-scanf(" %d %d", &a ,&a)
+scanf(" %d %d", &a ,&a);
 if(a>b){
 printf("True ");
 }
