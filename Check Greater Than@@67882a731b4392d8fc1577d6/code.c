@@ -4,10 +4,12 @@ int a;
 int b;
 scanf(" %d %d", &a ,&a);
 if(a>b){
-printf("True ");
+
+    printf("True ");
 }
 if(a<b){
-printf("False");
+
+    printf("False");
 }
 
 return 0;
