@@ -2,6 +2,7 @@
 int main(){
     int num;
     if(num%2){
+        num=0;
         printf("Even");
     }
     else{
