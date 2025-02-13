@@ -11,7 +11,7 @@ int main(){
         printf("Consonant");
     }
     else{
-        printf("digit")
+        printf("digit");
     }
     return 0;
 }
