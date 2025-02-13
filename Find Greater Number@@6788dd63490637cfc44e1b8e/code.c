@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a,b;
+   int a,b;
     scanf("%d %d",&d,&d);
 
     if(a>b){
@@ -10,5 +10,6 @@ int main(){
     else{
         printf("%d",b);
     }
-    return 0;
+    return 0; 
 }
+    
