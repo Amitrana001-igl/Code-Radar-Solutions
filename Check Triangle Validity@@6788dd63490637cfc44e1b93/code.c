@@ -5,10 +5,10 @@ int main(){
 
     if(a+b>c){
         
-        printf("Even");
+        printf("Valid");
     }
     else{
-        printf("Odd");
+        printf("Invalid");
     }
     return 0;
 }
