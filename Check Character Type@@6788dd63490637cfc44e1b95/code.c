@@ -8,7 +8,7 @@ int main(){
         printf("Vowel");
     }
     else{
-        printf("Invalid");
+        printf("Consonant");
     }
     return 0;
 }
