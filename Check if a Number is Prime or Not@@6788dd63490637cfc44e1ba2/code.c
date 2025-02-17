@@ -2,27 +2,23 @@
 
 int main() {
     int a;
-    scanf("%d", &a);  // Input number
-    
-    // Handle edge case for numbers <= 1
-    if (a <= 1) {
-        printf("Not Prime");
-    } else {
-        int isPrime = 1;  // Assume it's prime unless proven otherwise
-        for (int i = 2; i < a; i++) {
-            if (a % i == 0) {
-                isPrime = 0;  // It's divisible by i, so it's not prime
+    scanf("%d", &a);
+    if(a<=1){
+        printf("Not Prime")
+    }
+    else{
+        int isPrime = 1;
+        for( int i=2 ; i<a; i++ ){
+            if(a%i==0){
+                isPrime = 0;
                 break;
             }
         }
-        
-        if (isPrime) {
+        if(isPrime){
             printf("Prime");
-        } else {
+        }
+        else{
             printf("Not Prime");
         }
+        return 0;
     }
-
-    return 0;
-}
-
