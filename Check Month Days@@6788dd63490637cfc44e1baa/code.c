@@ -4,7 +4,7 @@ int main() {
     int month;
 
     // Input the month number
-    printf("Enter month number (1-12): ");
+   
     scanf("%d", &month);
 
     // Using if-else to determine the number of days in the month
