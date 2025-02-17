@@ -8,7 +8,7 @@ int main(){
     }
     
     else{
-        int isPrime ==1;
+        int isPrime =1;
         for(int i=2; i<=sqrt(a); i++ ){
             if( a%i ==0){
                 isPrime=0;
