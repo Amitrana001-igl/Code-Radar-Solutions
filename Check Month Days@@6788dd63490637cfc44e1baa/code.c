@@ -18,7 +18,7 @@ int main() {
         printf("28");
     }
     else {
-        printf("Invalid month number\n");  // Invalid input (not between 1 and 12)
+        printf("Invalid month");  // Invalid input (not between 1 and 12)
     }
 
     return 0;
