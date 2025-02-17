@@ -15,7 +15,7 @@ int main(){
 
     }
     if(isPrime){
-        Printf("Prime");
+        printf("Prime");
 
     }
     else{
