@@ -14,7 +14,7 @@ int main() {
         case '*': printf("%.f\n", num1 * num2); break;
         case '/': 
             if (num2 != 0) printf("%.f\n", num1 / num2);
-            else printf("Error! Division by zero.\n");
+            else printf("error\n");
             break;
         default: printf("Invalid operator!\n");
     }
