@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int i, j;
-    for(i = 1; i <= 7; i++) {
-        for(j = 1; j <= 7; j++) {
-            if(j <= 8 - i) {
+    int i, j,n;
+    scanf("%d%d",&n);
+    for(i = 1; i <= n; i++) {
+        for(j = 1; j <= n; j++) {
+            if(j <=n - i) {
                 printf("* ");
             } else {
                 printf("  "); // two spaces to match "* "
