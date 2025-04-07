@@ -1,14 +1,15 @@
-#include<stdio.h>
-int main(){
-    int n;
-    printf("");
-    scanf("%d",&n);
-    for(int i=1;i<=n;i++){
-        for(int j=1;j<=n;j++){
-            printf("* ");
-        }
-        for(int k=1;k<=n-i;k++){
-            printf(" ");
+#include <stdio.h>
+
+int main() {
+    int i, j,n;
+    scanf("%d%d",&n);
+    for(i = 1; i <= n; i++) {
+        for(j = 1; j <= n; j++) {
+            if(j <=i) {
+                printf("* ");
+            } else {
+                printf("  "); // two spaces to match "* "
+            }
         }
         printf("\n");
     }
