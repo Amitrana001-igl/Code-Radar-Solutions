@@ -11,8 +11,8 @@ int main() {
             } else {
                 printf("  "); // two spaces to match "* "
             }
+            a++;
         }
-        a++;
         printf("\n");
     }
     return 0;
