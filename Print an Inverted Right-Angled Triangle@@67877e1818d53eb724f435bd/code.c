@@ -1,13 +1,13 @@
-#include<stdio.h>
-int main(){
-    int i,j;
-    for(i=1;i<=7;i++){
-        for(j=1;j<=7;j++){
-            if(j<=8-i){
-            printf("* ");
-            }
-            else{
-                printf(" ");
+#include <stdio.h>
+
+int main() {
+    int i, j;
+    for(i = 1; i <= 7; i++) {
+        for(j = 1; j <= 7; j++) {
+            if(j <= 8 - i) {
+                printf("* ");
+            } else {
+                printf("  "); // two spaces to match "* "
             }
         }
         printf("\n");
