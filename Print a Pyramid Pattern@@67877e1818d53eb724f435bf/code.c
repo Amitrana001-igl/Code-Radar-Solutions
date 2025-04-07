@@ -2,7 +2,16 @@
 int main(){
     int i,j,n;
     scanf("%d%d",n);
-    for(i=1;i<=n;i=i++){
-        for(j=1;)
+    for(i=1;i<=n;i++){
+        for(j=1;j<=n;j++){
+            if(){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
     }
+    return 0;
 }
