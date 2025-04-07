@@ -5,7 +5,7 @@ int main() {
     scanf("%d%d",&n);
     for(i = 1; i <= n; i++) {
         for(j = 1; j <= n; j++) {
-            if(j <=n) {
+            if(j <=n+1) {
                 printf("* ");
             } else {
                 printf("  "); // two spaces to match "* "
