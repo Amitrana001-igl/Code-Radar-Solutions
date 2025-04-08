@@ -12,7 +12,7 @@ int main(){
                 printf("*");
             }
         }
-        prinf("\n")
+        prinf("\n");
     }
 }
 return 0;
