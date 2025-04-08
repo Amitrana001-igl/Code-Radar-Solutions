@@ -7,7 +7,7 @@ int main(){
         for(j=1;j<=15;j++)
         {
             
-            else if(j>=8-i&&j<=i+6){
+            if(j>=8-i&&j<=i+6){
                 printf("*");
             }
             else{
