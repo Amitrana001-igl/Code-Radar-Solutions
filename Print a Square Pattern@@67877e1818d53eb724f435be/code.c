@@ -12,6 +12,7 @@ int main(){
                 printf("*");
             }
         }
+        prinf("\n")
     }
 }
 return 0;
