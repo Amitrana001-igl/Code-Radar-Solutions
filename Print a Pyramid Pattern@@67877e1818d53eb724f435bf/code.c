@@ -9,7 +9,7 @@ int main(){
             if(n==1){
                 printf("*");
             }
-            if(j>=8-i&&j<=i+6){
+            else if(j>=8-i&&j<=i+6){
                 printf("*");
             }
             else{
