@@ -19,7 +19,10 @@ int main(){
                 if(j>=1&&j<=8){
                     printf("*");
                 }
-                else(" ");
+                else {
+    printf(" ");
+}
+
             }
             printf("\n");
         }
