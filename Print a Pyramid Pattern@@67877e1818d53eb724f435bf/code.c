@@ -10,7 +10,7 @@ int main() {
     else if (n >= 2) {
         for(i = 1; i <= n; i++) {
             for(j = 1; j <= 15; j++) {
-                if(j >= 8 - i && j <= i + 6) {
+                if(j >= n - i + 1  &&  j <= n + i - 1) {
                     printf("*");
                 } else {
                     printf(" ");
