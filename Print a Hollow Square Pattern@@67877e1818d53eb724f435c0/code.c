@@ -5,8 +5,10 @@ int main(){
     if(n==2){
         for(i=1;i<=n;i++){
             for(j=1;j<=n;j++){
-                j>=1&&j<=2;
+               if(j >= 1 && j <= 2){
+
                 printf("*");
+               }
             }
             printf("\n");
         }
