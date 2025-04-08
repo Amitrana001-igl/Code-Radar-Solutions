@@ -11,7 +11,7 @@ int main(){
                 printf("*");
             }
             else if(n>=2 ){
-                (j>=8-i&&j<=i+6)
+                (j>=8-i&&j<=i+6);
                 printf("*");
             }
             else{
