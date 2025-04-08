@@ -10,7 +10,8 @@ int main(){
             if(n==1){
                 printf("*");
             }
-            else if (j>=8-i&&j<=i+6){
+            else if(n>=2 ){
+                (j>=8-i&&j<=i+6)
                 printf("*");
             }
             else{
