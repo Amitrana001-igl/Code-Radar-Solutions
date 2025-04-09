@@ -16,7 +16,7 @@ int main(){
     else if(n>=3){
         for(i=1;i<=n;i++){
             for(j=1;j<=10;j++){
-                if(j>=1&&j<=n){
+                if(j>=1&&j<=8){
                     printf("*");
                 }
                 else {
