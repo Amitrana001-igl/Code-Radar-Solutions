@@ -5,9 +5,7 @@ int main(){
     for(i=1;i<=k;i++){
         for(j=1;j<=k;j++){
             if(j==k/2+1 || i==k/2+1) printf("*");
-            else{
-                printf(" ");
-            }
+            else  printf(" ");
         }
     }
 }
