@@ -7,5 +7,6 @@ int main(){
             if(j==k/2+1 || i==k/2+1) printf("*");
             else  printf(" ");
         }
+        printf("\n")
     }
 }
